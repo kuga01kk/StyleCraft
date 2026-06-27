@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover your signature style with StyleCraft. Explore personalized outfit ideas, seasonal fashion guides, and dynamic color combinations tailored for you.">
+  <title>StyleCraft – Personalized Fashion & Styling Generator</title>
+  
+  <!-- Master Stylesheet Link -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header>
+    <div class="container nav-container">
+      <!-- Website Logo -->
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="StyleCraft Logo" style="width: 42px; height: 42px; object-fit: contain;">
+        <div class="logo-text">
+          <h2>StyleCraft<sup>+</sup></h2>
+          <span>Personalized Fashion & Styling</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="style-guide.html" class="nav-link">Style Guide</a></li>
+          <li><a href="generator.html" class="nav-link">Generator</a></li>
+          <li><a href="lookbook.html" class="nav-link">Lookbook</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="generator.html" class="nav-cta">Explore Styles</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Icon for Mobile Screen Toggle -->
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       HERO SECTION
+       ========================================== -->
+  <section class="hero">
+    <div class="container grid-2">
+      <!-- Left side text & introduction -->
+      <div class="hero-content">
+        <h1>Discover Your <br><span>Signature Style</span></h1>
+        <p>StyleCraft is your personalized fashion companion. Get style recommendations, outfit ideas, color matches, and couture inspiration that align perfectly with your unique personality.</p>
+        <a href="generator.html" class="btn">Explore Styles &rarr;</a>
+      </div>
+
+      <!-- Right side hero banner image -->
+      <div class="hero-image-container">
+        <div class="hero-image-bg"></div>
+        <div class="hero-image">
+          <img src="images/hero-model.png" alt="Elegant model wearing pastel pink fashion apparel">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FEATURES SECTION (THREE CARDS)
+       ========================================== -->
+  <section class="features-section">
+    <div class="container">
+      <div class="features-row">
+        <!-- Feature 1 -->
+        <div class="feature-item">
+          <div class="feature-icon-box">
+            <!-- Personalized/User icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+          <div class="feature-info">
+            <h4>Personalized Ideas</h4>
+            <p>Outfit styling recommendations matched to your specific needs.</p>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-item">
+          <div class="feature-icon-box">
+            <!-- Palette icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19C5.34776 19.4892 6.1388 19.4892 6.62799 19C7.11719 18.5108 7.11719 17.7198 6.62799 17.2306C5.60254 16.2052 5 14.1685 5 12C5 8.13401 8.13401 5 12 5C15.866 5 19 8.13401 19 12C19 15.866 15.866 19 12 19V22Z"></path>
+              <circle cx="7.5" cy="10.5" r="1.5" fill="currentColor"></circle>
+              <circle cx="11.5" cy="7.5" r="1.5" fill="currentColor"></circle>
+              <circle cx="16.5" cy="9.5" r="1.5" fill="currentColor"></circle>
+              <circle cx="15.5" cy="14.5" r="1.5" fill="currentColor"></circle>
+            </svg>
+          </div>
+          <div class="feature-info">
+            <h4>Color Matching</h4>
+            <p>Harmonious color combinations curated for every skin tone.</p>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-item">
+          <div class="feature-icon-box">
+            <!-- Thread/Stitch needle icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+              <path d="M12 6v12M6 12h12"></path>
+            </svg>
+          </div>
+          <div class="feature-info">
+            <h4>Stitching Inspirations</h4>
+            <p>Beautiful neck styles and cut guides to give to your tailor.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TRENDING STYLES & DAILY TIP SECTION
+       ========================================== -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">Trending Styles</h2>
+      <p class="section-subtitle">Stay ahead with the current fashion trends of this season</p>
+      
+      <div class="trending-container">
+        <!-- 4 Cards Grid of Trending Outfits -->
+        <div class="trending-grid">
+          <!-- Card 1 (Wedding) -->
+          <div class="card trending-card">
+            <div class="card-img-wrapper">
+              <img src="images/wedding.png" alt="Beautiful pastel wedding attire">
+            </div>
+            <h4>Wedding Wear</h4>
+            <p>Graceful &amp; Elegant Lehenga Sets</p>
+          </div>
+
+          <!-- Card 2 (Office) -->
+          <div class="card trending-card">
+            <div class="card-img-wrapper">
+              <img src="images/office.png" alt="Smart casual professional suit">
+            </div>
+            <h4>Office Chic</h4>
+            <p>Power Dressing Neutral Suits</p>
+          </div>
+
+          <!-- Card 3 (Casual) -->
+          <div class="card trending-card">
+            <div class="card-img-wrapper">
+              <img src="images/casual.png" alt="Trendy everyday casual top and pants">
+            </div>
+            <h4>Casual Look</h4>
+            <p>Effortless &amp; Cool Co-ord Sets</p>
+          </div>
+
+          <!-- Card 4 (Party) -->
+          <div class="card trending-card">
+            <div class="card-img-wrapper">
+              <img src="images/party.png" alt="Gorgeous dark dress for cocktail party">
+            </div>
+            <h4>Party Glam</h4>
+            <p>Glittery &amp; Sleek Gowns</p>
+          </div>
+        </div>
+
+        <!-- Fashion Tip of the Day Dynamic Widget -->
+        <div class="tip-widget">
+          <div class="tip-icon">&✦;</div>
+          <h4>Fashion Tip of the Day</h4>
+          <p id="random-tip-text" class="tip-content">Loading your styling advice...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <!-- Brand Info -->
+      <div class="footer-col">
+        <h3>StyleCraft<sup>+</sup></h3>
+        <p>Your ultimate fashion styling and outfit recommendations platform, helping you discover your aesthetic since 2026.</p>
+        <p>&hearts; Designed with love and pastels.</p>
+      </div>
+
+      <!-- Quick Navigation links -->
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="style-guide.html">Style Guide</a></li>
+          <li><a href="generator.html">Outfit Generator</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Features links -->
+      <div class="footer-col">
+        <h4>Features</h4>
+        <ul class="footer-links">
+          <li><a href="generator.html">Personalized Matching</a></li>
+          <li><a href="lookbook.html">Trending Combinations</a></li>
+          <li><a href="style-guide.html">Body Type Styling</a></li>
+          <li><a href="contact.html">Expert Consultations</a></li>
+        </ul>
+      </div>
+
+      <!-- Sub-tagline block -->
+      <div class="footer-col">
+        <h4>About StyleCraft</h4>
+        <p>StyleCraft helps you design perfect styles for weddings, work, and every day. Try our recommendation engine to discover looks tailored specifically for your preferences.</p>
+      </div>
+    </div>
+
+    <!-- Bottom copyrights row -->
+    <div class="container footer-bottom">
+      <p>&copy; 2026 StyleCraft. All rights reserved. Created for educational purposes.</p>
+      <p>Fashion inspiration derived from elegance &amp; minimalist design.</p>
+    </div>
+  </footer>
+
+  <!-- Link to external JS code -->
+  <script src="js/script.js"></script>
+</body>
+</html>
