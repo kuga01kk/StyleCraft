@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Unlock styling secrets for every occasion and body shape. Read our curated style guide to discover outfit shapes, tips, and matching rules.">
+  <title>Style Guide – StyleCraft</title>
+  
+  <!-- Master Stylesheet Link -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="StyleCraft Logo" style="width: 42px; height: 42px; object-fit: contain;">
+        <div class="logo-text">
+          <h2>StyleCraft<sup>+</sup></h2>
+          <span>Personalized Fashion & Styling</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="style-guide.html" class="nav-link active">Style Guide</a></li>
+          <li><a href="generator.html" class="nav-link">Generator</a></li>
+          <li><a href="lookbook.html" class="nav-link">Lookbook</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="generator.html" class="nav-cta">Explore Styles</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Icon -->
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       PAGE HEADER
+       ========================================== -->
+  <section style="background-color: var(--bg-white); padding: 40px 0; border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <h1 class="section-title">Style Guide</h1>
+      <p class="section-subtitle">Your reference guide to looking perfect for every shape &amp; occasion</p>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       OCCASION STYLING SECTION
+       ========================================== -->
+  <section>
+    <div class="container">
+      <h3 class="guide-section-title">Occasion Styling</h3>
+      
+      <div class="grid-4">
+        <!-- Wedding Card -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/wedding.png" alt="Traditional wedding lehenga styling details">
+          </div>
+          <h4 style="margin-bottom: 5px; font-size: 1.1rem;">Wedding</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Look your best for the special day. Opt for detailed embroideries, deep warm tones, or graceful pastel flowy silhouettes.</p>
+        </div>
+
+        <!-- Office Card -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/office.png" alt="Chic workwear blazer styling">
+          </div>
+          <h4 style="margin-bottom: 5px; font-size: 1.1rem;">Office Wear</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Smart, sleek &amp; professional looks. Rely on solid colors, sharp lapels, structured pantsuits, and leather accessories.</p>
+        </div>
+
+        <!-- Party Card -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/party.png" alt="Glamorous party wear dress details">
+          </div>
+          <h4 style="margin-bottom: 5px; font-size: 1.1rem;">Party Glam</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Trendy &amp; glamorous party outfits. Choose satin fabrics, bold accents, shimmering materials, and chic statement heels.</p>
+        </div>
+
+        <!-- Casual Card -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/casual.png" alt="Relaxed casual styling look">
+          </div>
+          <h4 style="margin-bottom: 5px; font-size: 1.1rem;">Casual Comfort</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Comfortable &amp; stylish everyday looks. Think cotton co-ord sets, graphic tops with white denim, and canvas shoes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       BODY TYPE STYLING SECTION
+       ========================================== -->
+  <section style="background-color: var(--bg-white); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <h3 class="guide-section-title">Body Type Styling</h3>
+      
+      <div class="grid-5">
+        <!-- Pear Shape -->
+        <div class="card body-shape-card">
+          <div class="body-shape-svg">
+            <!-- SVG Pear Shape Representation -->
+            <svg viewBox="0 0 100 150" width="60" height="100">
+              <path d="M50,15 C42,15 38,30 38,45 C38,60 25,90 25,115 C25,135 36,145 50,145 C64,145 75,135 75,115 C75,90 62,60 62,45 C62,30 58,15 50,15 Z" fill="none" stroke="#D33B65" stroke-width="2"/>
+              <ellipse cx="50" cy="115" rx="20" ry="25" fill="#FFF1F4" opacity="0.6"/>
+            </svg>
+          </div>
+          <h4>Pear Shape</h4>
+          <p>Highlight your upper body with boat necks and cowl necklines. Choose A-line skirts to gracefully wrap your lower half.</p>
+        </div>
+
+        <!-- Hourglass Shape -->
+        <div class="card body-shape-card">
+          <div class="body-shape-svg">
+            <!-- SVG Hourglass Shape Representation -->
+            <svg viewBox="0 0 100 150" width="60" height="100">
+              <path d="M30,20 L70,20 C70,20 62,60 58,75 C62,90 70,130 70,130 L30,130 C30,130 38,90 42,75 C38,60 30,20 30,20 Z" fill="none" stroke="#D33B65" stroke-width="2"/>
+              <path d="M30,20 C30,20 40,65 50,75 C60,65 70,20 70,20 C70,20 60,110 50,130 C40,110 30,20 30,20 Z" fill="#FFF1F4" opacity="0.6"/>
+            </svg>
+          </div>
+          <h4>Hourglass</h4>
+          <p>Show off your natural balance and curves. Belted garments, wrap dresses, and sweetheart necklines suit you beautifully.</p>
+        </div>
+
+        <!-- Rectangle Shape -->
+        <div class="card body-shape-card">
+          <div class="body-shape-svg">
+            <!-- SVG Rectangle Shape Representation -->
+            <svg viewBox="0 0 100 150" width="60" height="100">
+              <rect x="30" y="20" width="40" height="110" rx="5" fill="#FFF1F4" stroke="#D33B65" stroke-width="2"/>
+              <line x1="30" y1="75" x2="70" y2="75" stroke="#D33B65" stroke-width="1.5" stroke-dasharray="3"/>
+            </svg>
+          </div>
+          <h4>Rectangle</h4>
+          <p>Create the illusion of curves. Wear cinched dresses, ruffles, round necklines, and bold patterns around hips and shoulders.</p>
+        </div>
+
+        <!-- Apple Shape -->
+        <div class="card body-shape-card">
+          <div class="body-shape-svg">
+            <!-- SVG Apple Shape Representation -->
+            <svg viewBox="0 0 100 150" width="60" height="100">
+              <path d="M50,20 C32,20 28,45 28,75 C28,105 35,130 50,130 C65,130 72,105 72,75 C72,45 68,20 50,20 Z" fill="#FFF1F4" stroke="#D33B65" stroke-width="2"/>
+              <circle cx="50" cy="75" r="22" fill="none" stroke="#D33B65" stroke-width="1" stroke-dasharray="2"/>
+            </svg>
+          </div>
+          <h4>Apple Shape</h4>
+          <p>Highlight your legs and collarbone. Choose flowy empire waist lines, structural jackets, and soft V-necks to elongate your torso.</p>
+        </div>
+
+        <!-- Inverted Triangle Shape -->
+        <div class="card body-shape-card">
+          <div class="body-shape-svg">
+            <!-- SVG Inverted Triangle Representation -->
+            <svg viewBox="0 0 100 150" width="60" height="100">
+              <polygon points="20,20 80,20 50,130" fill="#FFF1F4" stroke="#D33B65" stroke-width="2"/>
+            </svg>
+          </div>
+          <h4>Inverted Triangle</h4>
+          <p>Add volume to your lower hips. Pair clean, simple tops with wide-leg trousers, flared skirts, and cargo style details.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       QUICK FASHION TIPS
+       ========================================== -->
+  <section>
+    <div class="container">
+      <h3 class="guide-section-title">Quick Fashion Tips</h3>
+      
+      <div class="horizontal-tips-grid">
+        <!-- Tip 1 -->
+        <div class="card horiz-tip-card">
+          <span class="tip-num">01</span>
+          <div>
+            <h4 style="font-family: var(--font-sans); font-size: 0.95rem; font-weight: 600; margin-bottom: 5px;">Shape Selection</h4>
+            <p>Always pick clothes that complement your unique body shape to feel comfortable.</p>
+          </div>
+        </div>
+
+        <!-- Tip 2 -->
+        <div class="card horiz-tip-card">
+          <span class="tip-num">02</span>
+          <div>
+            <h4 style="font-family: var(--font-sans); font-size: 0.95rem; font-weight: 600; margin-bottom: 5px;">Color Harmony</h4>
+            <p>Wear colors that match your skin tone. Warm tones suit gold; cool tones suit silver.</p>
+          </div>
+        </div>
+
+        <!-- Tip 3 -->
+        <div class="card horiz-tip-card">
+          <span class="tip-num">03</span>
+          <div>
+            <h4 style="font-family: var(--font-sans); font-size: 0.95rem; font-weight: 600; margin-bottom: 5px;">Classic Wardrobe</h4>
+            <p>Invest in timeless pieces (white shirts, blazers) that never fade from style.</p>
+          </div>
+        </div>
+
+        <!-- Tip 4 -->
+        <div class="card horiz-tip-card">
+          <span class="tip-num">04</span>
+          <div>
+            <h4 style="font-family: var(--font-sans); font-size: 0.95rem; font-weight: 600; margin-bottom: 5px;">Accessorizing</h4>
+            <p>Delicate accessories and matching bags can elevate even the simplest t-shirt &amp; jeans.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>StyleCraft<sup>+</sup></h3>
+        <p>Your ultimate fashion styling and outfit recommendations platform, helping you discover your aesthetic since 2026.</p>
+        <p>&hearts; Designed with love and pastels.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="style-guide.html">Style Guide</a></li>
+          <li><a href="generator.html">Outfit Generator</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Features</h4>
+        <ul class="footer-links">
+          <li><a href="generator.html">Personalized Matching</a></li>
+          <li><a href="lookbook.html">Trending Combinations</a></li>
+          <li><a href="style-guide.html">Body Type Styling</a></li>
+          <li><a href="contact.html">Expert Consultations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>About StyleCraft</h4>
+        <p>StyleCraft helps you design perfect styles for weddings, work, and every day. Try our recommendation engine to discover looks tailored specifically for your preferences.</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 StyleCraft. All rights reserved. Created for educational purposes.</p>
+      <p>Fashion inspiration derived from elegance &amp; minimalist design.</p>
+    </div>
+  </footer>
+
+  <!-- Script link -->
+  <script src="js/script.js"></script>
+</body>
+</html>
