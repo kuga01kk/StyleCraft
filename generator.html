@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Generate custom fashion suggestions instantly. Try our StyleCraft outfit generator for personalized suggestions, matching accessories, and colors.">
+  <title>Style Generator – StyleCraft</title>
+  
+  <!-- Master Stylesheet Link -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="StyleCraft Logo" style="width: 42px; height: 42px; object-fit: contain;">
+        <div class="logo-text">
+          <h2>StyleCraft<sup>+</sup></h2>
+          <span>Personalized Fashion & Styling</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="style-guide.html" class="nav-link">Style Guide</a></li>
+          <li><a href="generator.html" class="nav-link active">Generator</a></li>
+          <li><a href="lookbook.html" class="nav-link">Lookbook</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="generator.html" class="nav-cta">Explore Styles</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Icon -->
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       PAGE HEADER
+       ========================================== -->
+  <section style="background-color: var(--bg-white); padding: 40px 0; border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <h1 class="section-title">Style Generator</h1>
+      <p class="section-subtitle">Select your preferences and get personalized style ideas instantly</p>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       GENERATOR SECTION
+       ========================================== -->
+  <section>
+    <div class="container">
+      <div class="generator-layout">
+        
+        <!-- Left Side: Dropdown Selection Form -->
+        <div class="card" style="padding: 30px;">
+          <h3 style="font-size: 1.3rem; margin-bottom: 25px; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">Select Preferences</h3>
+          
+          <!-- Dropdown 1: Occasion -->
+          <div class="form-group">
+            <label for="occasion">Occasion</label>
+            <select id="occasion" class="form-select">
+              <option value="wedding">Wedding</option>
+              <option value="office">Office Wear</option>
+              <option value="party">Party Glam</option>
+              <option value="casual">Casual Comfort</option>
+            </select>
+          </div>
+
+          <!-- Dropdown 2: Color Preference -->
+          <div class="form-group">
+            <label for="color">Color Preference</label>
+            <select id="color" class="form-select">
+              <option value="pastel">Pastel Tones</option>
+              <option value="neutral">Neutral Tones</option>
+              <option value="bold">Bold &amp; Vibrant</option>
+            </select>
+          </div>
+
+          <!-- Dropdown 3: Style Type -->
+          <div class="form-group">
+            <label for="style">Style Type</label>
+            <select id="style" class="form-select">
+              <option value="traditional">Traditional Wear</option>
+              <option value="modern">Modern / Indo-Western</option>
+              <option value="minimalist">Clean / Minimalist</option>
+            </select>
+          </div>
+
+          <!-- Dropdown 4: Budget Range (matches mockup visual) -->
+          <div class="form-group">
+            <label for="budget">Budget Range</label>
+            <select id="budget" class="form-select">
+              <option value="medium">Medium</option>
+              <option value="budget">Budget-Friendly</option>
+              <option value="luxury">Luxury / Premium</option>
+            </select>
+          </div>
+
+          <!-- Generate Action Button -->
+          <button id="generate-btn" class="btn" style="width: 100%; margin-top: 10px; font-weight: 600; letter-spacing: 0.5px;">&plus; GENERATE IDEAS</button>
+        </div>
+
+        <!-- Right Side: Recommendation Results Output -->
+        <div id="generator-results" class="card results-card">
+          <!-- Default placeholder shown before submission -->
+          <div class="placeholder-results">
+            <div class="placeholder-results-icon" style="margin-bottom: 20px;">
+              <img src="images/logo.svg" alt="StyleCraft Gown Icon" style="width: 70px; height: 70px; opacity: 0.8; margin: 0 auto; display: block;">
+            </div>
+            <h4 style="font-family: var(--font-sans); margin-bottom: 10px; font-weight: 500;">Ready to Style You</h4>
+            <p>Select your preferences on the left and click <strong>Generate Ideas</strong> to see your custom outfit design recommendations!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>StyleCraft<sup>+</sup></h3>
+        <p>Your ultimate fashion styling and outfit recommendations platform, helping you discover your aesthetic since 2026.</p>
+        <p>&hearts; Designed with love and pastels.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="style-guide.html">Style Guide</a></li>
+          <li><a href="generator.html">Outfit Generator</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Features</h4>
+        <ul class="footer-links">
+          <li><a href="generator.html">Personalized Matching</a></li>
+          <li><a href="lookbook.html">Trending Combinations</a></li>
+          <li><a href="style-guide.html">Body Type Styling</a></li>
+          <li><a href="contact.html">Expert Consultations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>About StyleCraft</h4>
+        <p>StyleCraft helps you design perfect styles for weddings, work, and every day. Try our recommendation engine to discover looks tailored specifically for your preferences.</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 StyleCraft. All rights reserved. Created for educational purposes.</p>
+      <p>Fashion inspiration derived from elegance &amp; minimalist design.</p>
+    </div>
+  </footer>
+
+  <!-- Script link -->
+  <script src="js/script.js"></script>
+</body>
+</html>
