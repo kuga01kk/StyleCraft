@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore current fashion trends, seasonal catalogs, and elegant color combinations. Draw inspiration from our Lookbook gallery.">
+  <title>Fashion Lookbook – StyleCraft</title>
+  
+  <!-- Master Stylesheet Link -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER & NAVIGATION
+       ========================================== -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="StyleCraft Logo" style="width: 42px; height: 42px; object-fit: contain;">
+        <div class="logo-text">
+          <h2>StyleCraft<sup>+</sup></h2>
+          <span>Personalized Fashion & Styling</span>
+        </div>
+      </a>
+
+      <!-- Desktop Links -->
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="style-guide.html" class="nav-link">Style Guide</a></li>
+          <li><a href="generator.html" class="nav-link">Generator</a></li>
+          <li><a href="lookbook.html" class="nav-link active">Lookbook</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+          <li><a href="generator.html" class="nav-cta">Explore Styles</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Icon -->
+      <button class="hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================
+       PAGE HEADER
+       ========================================== -->
+  <section style="background-color: var(--bg-white); padding: 40px 0; border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <h1 class="section-title">Fashion Lookbook</h1>
+      <p class="section-subtitle">Explore trending colors, styles, and celebrity-inspired looks</p>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TRENDING COLOR COMBINATIONS
+       ========================================== -->
+  <section>
+    <div class="container">
+      <h3 class="guide-section-title">Trending Color Combinations</h3>
+      
+      <div class="swatch-grid">
+        <!-- Combo 1: Blush Pink + Ivory -->
+        <div class="swatch-card">
+          <div class="swatch-display">
+            <div class="swatch-half" style="background-color: #F8D5DB;"></div>
+            <div class="swatch-half" style="background-color: #FFFDF4;"></div>
+          </div>
+          <h4>Blush Pink + Ivory</h4>
+          <p>Soft &amp; Romantic</p>
+        </div>
+
+        <!-- Combo 2: Lavender + Sage -->
+        <div class="swatch-card">
+          <div class="swatch-display">
+            <div class="swatch-half" style="background-color: #E2D9F3;"></div>
+            <div class="swatch-half" style="background-color: #DBE8DC;"></div>
+          </div>
+          <h4>Lavender + Sage</h4>
+          <p>Fresh &amp; Modern Pastel</p>
+        </div>
+
+        <!-- Combo 3: Beige + Sage Green -->
+        <div class="swatch-card">
+          <div class="swatch-display">
+            <div class="swatch-half" style="background-color: #F3EAE0;"></div>
+            <div class="swatch-half" style="background-color: #BCCEC0;"></div>
+          </div>
+          <h4>Beige + Sage Green</h4>
+          <p>Earthy &amp; Grounded Tones</p>
+        </div>
+
+        <!-- Combo 4: Navy Blue + White -->
+        <div class="swatch-card">
+          <div class="swatch-display">
+            <div class="swatch-half" style="background-color: #1F2E3D;"></div>
+            <div class="swatch-half" style="background-color: #FFFFFF;"></div>
+          </div>
+          <h4>Navy Blue + White</h4>
+          <p>High Contrast Sophistication</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       TRENDING OUTFIT STYLES
+       ========================================== -->
+  <section style="background-color: var(--bg-white); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <h3 class="guide-section-title">Trending Outfit Styles</h3>
+      
+      <div class="grid-4">
+        <!-- Anarkali -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/wedding.png" alt="Elegant Anarkali dress representation">
+          </div>
+          <h4 style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin-bottom: 5px;">Anarkali</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Timeless Charm. Floor-length flared tops paired with gorgeous dupattas, perfect for traditional festivals.</p>
+        </div>
+
+        <!-- Co-ord Sets -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/casual.png" alt="Trendy co-ord suit set styling">
+          </div>
+          <h4 style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin-bottom: 5px;">Co-ord Sets</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Trendy &amp; Chic. Matching top and trouser sets in soft linens and cottons, ideal for casual days out.</p>
+        </div>
+
+        <!-- Saree -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/lavender-lehenga.png" alt="Beautiful ethnic saree drape styling">
+          </div>
+          <h4 style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin-bottom: 5px;">Saree drape</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Fusion Fashion. Draped sarees combined with crop tops or matching structured jackets for a modern cocktail twist.</p>
+        </div>
+
+        <!-- Indo-Western -->
+        <div class="card">
+          <div class="card-img-wrapper">
+            <img src="images/office.png" alt="Indo Western fusion suit design">
+          </div>
+          <h4 style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin-bottom: 5px;">Indo-Western</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium);">Classy &amp; Stylish. Pairing ethnic tunics with structured denim or flared trousers for modern styling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       CELEBRITY INSPIRED LOOKS
+       ========================================== -->
+  <section>
+    <div class="container">
+      <h3 class="guide-section-title">Celebrity Inspired Looks</h3>
+      
+      <div class="grid-3">
+        <!-- Celebrity Look 1 -->
+        <div class="card">
+          <div class="card-img-wrapper" style="aspect-ratio: 16/9;">
+            <img src="images/hero-model.png" alt="High fashion celebrity dress style">
+          </div>
+          <h4 style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin-bottom: 5px; text-align: center;">Monochrome Pastel Blazer</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium); text-align: center;">Make an impact with unified shades of rose and beige matching blazer sets.</p>
+        </div>
+
+        <!-- Celebrity Look 2 -->
+        <div class="card">
+          <div class="card-img-wrapper" style="aspect-ratio: 16/9;">
+            <img src="images/party.png" alt="Classic chic party dress styling on celebrity">
+          </div>
+          <h4 style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin-bottom: 5px; text-align: center;">Flowy Silk Slip Dress</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium); text-align: center;">Redefine evening wear with solid tones, minimalist lines, and diamond drops.</p>
+        </div>
+
+        <!-- Celebrity Look 3 -->
+        <div class="card">
+          <div class="card-img-wrapper" style="aspect-ratio: 16/9;">
+            <img src="images/casual.png" alt="Creative fashion styling combination">
+          </div>
+          <h4 style="font-family: var(--font-sans); font-size: 1.05rem; font-weight: 600; margin-bottom: 5px; text-align: center;">Tiered Pastel Summer Maxi</h4>
+          <p style="font-size: 0.85rem; color: var(--text-medium); text-align: center;">Embrace daylight elegance with sage or lilac tiered cotton gowns.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       SEASONAL FASHION
+       ========================================== -->
+  <section style="background-color: var(--bg-white); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color);">
+    <div class="container">
+      <h3 class="guide-section-title">Seasonal Fashion</h3>
+      
+      <div class="seasonal-grid">
+        <!-- Summer -->
+        <div class="season-card summer">
+          <h3>Summer</h3>
+          <p>Lightweight breathable fabrics like linen, chiffon, and organic cotton. Dominated by soft pastels, yellows, and white tones.</p>
+        </div>
+
+        <!-- Monsoon -->
+        <div class="season-card monsoon">
+          <h3>Monsoon</h3>
+          <p>Water-resistant layers, quick-drying synthetics, and shorter hems. Dominated by deep lavender, slate blue, and teal highlights.</p>
+        </div>
+
+        <!-- Autumn -->
+        <div class="season-card autumn">
+          <h3>Autumn</h3>
+          <p>Light jackets, soft cardigans, and overlay scarves. Dominated by warm earth colors like beige, rust, and olive green.</p>
+        </div>
+
+        <!-- Winter -->
+        <div class="season-card winter">
+          <h3>Winter</h3>
+          <p>Woolen coats, velvet ethnic garments, and trench layers. Dominated by rich, bold tones like crimson red, navy, and emerald.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h3>StyleCraft<sup>+</sup></h3>
+        <p>Your ultimate fashion styling and outfit recommendations platform, helping you discover your aesthetic since 2026.</p>
+        <p>&hearts; Designed with love and pastels.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="style-guide.html">Style Guide</a></li>
+          <li><a href="generator.html">Outfit Generator</a></li>
+          <li><a href="lookbook.html">Lookbook</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Features</h4>
+        <ul class="footer-links">
+          <li><a href="generator.html">Personalized Matching</a></li>
+          <li><a href="lookbook.html">Trending Combinations</a></li>
+          <li><a href="style-guide.html">Body Type Styling</a></li>
+          <li><a href="contact.html">Expert Consultations</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>About StyleCraft</h4>
+        <p>StyleCraft helps you design perfect styles for weddings, work, and every day. Try our recommendation engine to discover looks tailored specifically for your preferences.</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2026 StyleCraft. All rights reserved. Created for educational purposes.</p>
+      <p>Fashion inspiration derived from elegance &amp; minimalist design.</p>
+    </div>
+  </footer>
+
+  <!-- Script link -->
+  <script src="js/script.js"></script>
+</body>
+</html>
